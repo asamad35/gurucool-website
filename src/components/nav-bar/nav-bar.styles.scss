@@ -1,0 +1,30 @@
+@import "../../default-styles.scss";
+
+.nav-bar {
+  background-color: $primary-background-color;
+  justify-content: space-between;
+  padding: 1.4rem 3.6rem;
+  padding-bottom: 0;
+  z-index: 10;
+  max-height: 6.4rem;
+
+  .logo {
+    cursor: pointer;
+  }
+
+  .nav-links {
+    list-style: none;
+    justify-content: space-between;
+    gap: 10rem;
+    font-size: 1.6rem;
+    font-weight: 500;
+
+    .nav-link {
+      cursor: pointer;
+    }
+  }
+
+  .login {
+    background-color: transparent;
+  }
+}

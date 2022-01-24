@@ -1,0 +1,67 @@
+@import "./default-styles.scss";
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: "Poppins", sans-serif;
+}
+html {
+  font-size: 10px;
+}
+
+// Heading
+.primary-heading {
+  font-size: $primary-heading;
+  font-weight: $primary-heading-weight;
+  color: $primary-heading-color;
+}
+.secondary-heading {
+  font-size: $secondary-heading;
+  font-weight: $secondary-heading-weight;
+  color: $secondary-heading-color;
+  padding-bottom: 1rem;
+}
+.tertiary-heading {
+  font-size: $tertiary-heading;
+  font-weight: $tertiary-heading-weight;
+  color: $tertiary-heading-color;
+}
+
+// Paragraph
+.primary-paragraph {
+  font-size: $primary-paragraph;
+  font-weight: $primary-paragraph-weight;
+  color: $primary-paragraph-color;
+}
+.secondary-paragraph {
+  font-size: $secondary-paragraph;
+  font-weight: $secondary-paragraph-weight;
+  color: $secondary-paragraph-color;
+  padding-bottom: 4rem;
+}
+
+.section {
+  padding: 9rem 7rem;
+}
+
+.flex {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.button {
+  font-size: 1.6rem;
+  border-radius: 40px;
+  background-color: $secondary-background-color;
+  font-weight: 600;
+  padding: 0.8rem 3rem;
+  border: none;
+  cursor: pointer;
+}
+
+.navigate {
+  font-size: $secondary-paragraph;
+  font-weight: $secondary-paragraph-weight;
+}
