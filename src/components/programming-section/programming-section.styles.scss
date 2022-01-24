@@ -1,0 +1,11 @@
+@import "../../default-styles.scss";
+
+.programming-section {
+  background-color: #fff;
+
+  .text-box {
+    span {
+      color: $secondary-background-color;
+    }
+  }
+}

@@ -1,0 +1,22 @@
+@import "../../../default-styles.scss";
+
+.programming-card-helper {
+  width: 100%;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 1.5rem;
+
+  .discounted-price,
+  .original-price,
+  .discount {
+    padding: 0;
+  }
+
+  .original-price {
+    text-decoration: line-through;
+  }
+
+  .discount {
+    color: $primary-heading-color;
+  }
+}

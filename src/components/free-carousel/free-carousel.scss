@@ -3,6 +3,7 @@
   height: 51rem;
   position: relative;
   overflow: hidden;
+  margin-bottom: 4rem;
 
   .swiper-pagination {
     position: absolute;
@@ -32,4 +33,8 @@
   border: 1px solid #dedede;
   border-radius: 6px;
   box-shadow: 0px 8px 40px rgba(0, 0, 0, 0.08);
+}
+
+.programmingSwiper {
+  height: 54rem;
 }
