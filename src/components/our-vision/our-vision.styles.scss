@@ -1,0 +1,28 @@
+@import "../../default-styles.scss";
+
+.our-vision {
+  background-color: $primary-heading-color;
+  display: grid;
+  grid-template-columns: 2fr 3fr;
+  justify-items: start;
+  padding: 15rem;
+
+  .our-vision-heading {
+    color: white;
+  }
+
+  .our-vision-textbox {
+    flex-direction: column;
+    align-items: flex-start;
+
+    .our-vision-para {
+      color: white;
+      padding-bottom: 2rem;
+      line-height: 5.8rem;
+    }
+    span {
+      color: $secondary-background-color;
+      cursor: pointer;
+    }
+  }
+}

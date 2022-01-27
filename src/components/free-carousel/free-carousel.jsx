@@ -15,7 +15,7 @@ import SwiperCore, { FreeMode, Pagination } from "swiper";
 // install Swiper modules
 SwiperCore.use([FreeMode, Pagination]);
 
-const FreeCarousel = ({ cardData, programming }) => {
+const FreeCarousel = ({ cardData, extraSwiperHeight }) => {
   return (
     <Swiper
       slidesPerView={4}
@@ -24,7 +24,7 @@ const FreeCarousel = ({ cardData, programming }) => {
       pagination={{
         clickable: true,
       }}
-      className={`mySwiper ${programming ? "programmingSwiper" : ""}`}
+      className={`mySwiper ${extraSwiperHeight ? "extraSwiperHeight" : ""}`}
     >
       {cardData.map(({ key, ...otherProps }) => (
         <SwiperSlide key={key}>

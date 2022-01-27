@@ -40,6 +40,11 @@ html {
   color: $secondary-paragraph-color;
   padding-bottom: 4rem;
 }
+.tertiary-paragraph {
+  font-size: $tertiary-paragraph;
+  font-weight: $tertiary-paragraph-weight;
+  color: $tertiary-paragraph-color;
+}
 
 .section {
   padding: 9rem 7rem;

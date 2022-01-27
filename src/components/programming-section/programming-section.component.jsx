@@ -1,5 +1,5 @@
 import React from "react";
-import cardData from "./programming-cards";
+import cardData from "./programming-cards-data";
 import FreeCarousel from "../free-carousel/free-carousel";
 import "./programming-section.styles.scss";
 
@@ -15,7 +15,7 @@ const ProgrammingSection = () => {
         </p>
       </div>
 
-      <FreeCarousel cardData={cardData} programming />
+      <FreeCarousel cardData={cardData} extraSwiperHeight />
 
       <div className="flex">
         <div className="button flex ">See All</div>

@@ -1,0 +1,35 @@
+@import "../../default-styles.scss";
+
+.achieve-goals {
+  background-color: $primary-background-color;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  justify-items: center;
+  align-items: center;
+  padding: 5rem 15rem;
+
+  .achieve-goals-heading {
+    font-size: 6.4rem;
+    font-weight: 600;
+    text-align: start;
+    span {
+      color: $secondary-background-color;
+    }
+  }
+
+  .achieve-goals-box {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-column-gap: 15rem;
+    grid-row-gap: 10rem;
+
+    .achieve-goals-picture-box {
+      flex-direction: column;
+      gap: 2rem;
+      .achieve-goals-picture-text {
+        font-size: 1.8rem;
+        font-weight: 600;
+      }
+    }
+  }
+}

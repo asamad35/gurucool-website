@@ -1,0 +1,20 @@
+@import "../../default-styles.scss";
+
+.teach-here {
+  background-color: black;
+  justify-content: space-between;
+  padding: 2rem 3rem;
+
+  .teach-here-heading {
+    color: white;
+    font-weight: 600;
+  }
+
+  .teach-here-button {
+    background-color: $secondary-background-color;
+    padding: 1rem 5rem;
+    font-weight: 600;
+    color: black;
+    border-radius: 6px;
+  }
+}

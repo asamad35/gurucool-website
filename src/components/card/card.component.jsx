@@ -14,6 +14,7 @@ const Card = ({
   image,
   popular,
   programming,
+  recommended,
   bestSeller,
 }) => {
   const ratingsArray = new Array(ratings).fill(0);
@@ -40,6 +41,7 @@ const Card = ({
 
         {popular ? <PopularCardHelper /> : ""}
         {programming ? <ProgrammingCardHelper /> : ""}
+        {recommended ? <ProgrammingCardHelper /> : ""}
       </div>
     </>
   );

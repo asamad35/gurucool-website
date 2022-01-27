@@ -25,7 +25,7 @@
 .swiper-slide {
   display: flex;
   flex-direction: column;
-  align-items: center;
+  align-items: flex-start;
   justify-content: flex-start;
   padding: 1rem;
 
@@ -33,8 +33,4 @@
   border: 1px solid #dedede;
   border-radius: 6px;
   box-shadow: 0px 8px 40px rgba(0, 0, 0, 0.08);
-}
-
-.extraSwiperHeight {
-  height: 54rem;
 }
