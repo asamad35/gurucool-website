@@ -17,21 +17,41 @@ SwiperCore.use([FreeMode, Pagination]);
 
 const FreeCarousel = ({ cardData, extraSwiperHeight }) => {
   return (
-    <Swiper
-      slidesPerView={4}
-      spaceBetween={30}
-      freeMode={true}
-      pagination={{
-        clickable: true,
-      }}
-      className={`mySwiper ${extraSwiperHeight ? "extraSwiperHeight" : ""}`}
-    >
-      {cardData.map(({ key, ...otherProps }) => (
-        <SwiperSlide key={key}>
-          <Card {...otherProps} />
-        </SwiperSlide>
-      ))}
-    </Swiper>
+    <div className="free-swiper">
+      <Swiper
+        slidesPerView={1}
+        spaceBetween={30}
+        freeMode={true}
+        pagination={{
+          clickable: true,
+        }}
+        breakpoints={{
+          640: {
+            slidesPerView: 2,
+            spaceBetween: 20,
+          },
+          768: {
+            slidesPerView: 3,
+            spaceBetween: 20,
+          },
+          1200: {
+            slidesPerView: 4,
+            spaceBetween: 30,
+          },
+          1496: {
+            slidesPerView: 4,
+            spaceBetween: 30,
+          },
+        }}
+        className={`${extraSwiperHeight ? "extraSwiperHeight" : ""}`}
+      >
+        {cardData.map(({ key, ...otherProps }) => (
+          <SwiperSlide key={key}>
+            <Card {...otherProps} />
+          </SwiperSlide>
+        ))}
+      </Swiper>
+    </div>
   );
 };
 

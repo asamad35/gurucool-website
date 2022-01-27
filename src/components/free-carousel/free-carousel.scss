@@ -1,40 +1,40 @@
-.swiper {
-  width: 100%;
-  height: 51rem;
-  position: relative;
-  overflow: hidden;
-  margin-bottom: 4rem;
+.free-swiper {
+  .swiper {
+    width: 100%;
+    height: 51rem;
+    position: relative;
+    overflow: hidden;
+    margin-bottom: 4rem;
 
-  .swiper-pagination {
-    position: absolute;
-    bottom: 0rem;
+    .swiper-pagination {
+      position: absolute;
+      bottom: 0rem;
 
-    .swiper-pagination-bullet {
-      color: #f9c733;
-      background-color: #f9c733;
+      .swiper-pagination-bullet {
+        color: #f9c733;
+        background-color: #f9c733;
+      }
+    }
+    .swiper-wrapper {
+      display: flex;
+      justify-content: flex-start;
+      align-items: center;
+      height: 90%;
+    }
+    .swiper-slide {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: flex-start;
+      padding: 1rem;
+
+      background-color: white;
+      border: 1px solid #dedede;
+      border-radius: 6px;
+      box-shadow: 0px 8px 40px rgba(0, 0, 0, 0.08);
     }
   }
-  .swiper-wrapper {
-    display: flex;
-    justify-content: flex-start;
-    align-items: center;
-    height: 90%;
-  }
 }
-
-.swiper-slide {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: flex-start;
-  padding: 1rem;
-
-  background-color: white;
-  border: 1px solid #dedede;
-  border-radius: 6px;
-  box-shadow: 0px 8px 40px rgba(0, 0, 0, 0.08);
-}
-
 .extraSwiperHeight {
-  height: 54rem;
+  height: 54rem !important;
 }

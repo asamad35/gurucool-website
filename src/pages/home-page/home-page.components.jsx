@@ -11,6 +11,7 @@ import OurVision from "../../components/our-vision/our-vision.component";
 import AppSection from "../../components/app-section/app-section.component";
 import TeachHere from "../../components/teachHere/teachHere.component";
 import Footer from "../../components/footer/footer.component";
+import GridProgrammingSection from "../../components/grid-programming-section/grid-programming-section.component";
 
 const HomePage = () => {
   return (
@@ -20,6 +21,7 @@ const HomePage = () => {
       <PopularSection />
       <ProgrammingSection />
       <RecommendedSection />
+      <GridProgrammingSection />
       <AchieveGoals />
       <OurVision />
       <AppSection />
