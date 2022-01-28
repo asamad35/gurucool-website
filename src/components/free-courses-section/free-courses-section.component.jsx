@@ -13,8 +13,8 @@ const FreeCoursesSection = () => {
         </p>
       </div>
 
-      <FreeCarousel cardData={cardData} />
-      <FreeCarousel cardData={cardData} />
+      <FreeCarousel cardData={cardData} reduceSwiperHeight />
+      <FreeCarousel cardData={cardData} reduceSwiperHeight />
 
       <div className="flex">
         <div className="button flex ">See All</div>

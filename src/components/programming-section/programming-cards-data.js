@@ -40,7 +40,7 @@ const cardData = [
   },
 
   {
-    image: programming2,
+    image: programming7,
     heading: "Happiness Explained",
     description:
       "We all want to be happy, and there are countless ideas about what happiness is and how we can...",
@@ -70,7 +70,7 @@ const cardData = [
     programming: true,
   },
   {
-    image: programming7,
+    image: programming2,
     heading: "Happiness Explained",
     description:
       "We all want to be happy, and there are countless ideas about what happiness is and how we can...",

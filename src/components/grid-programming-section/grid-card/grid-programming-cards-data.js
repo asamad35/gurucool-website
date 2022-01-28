@@ -13,6 +13,7 @@ const gridCardData = [
     reviews: "(5,321)",
     price: 455,
     key: 1,
+    bestSeller: true,
   },
   {
     image: gridCardimage,
@@ -21,6 +22,7 @@ const gridCardData = [
     reviews: "(5,321)",
     price: 455,
     key: 2,
+    bestSeller: true,
   },
   {
     image: gridCardimage,
@@ -29,6 +31,7 @@ const gridCardData = [
     reviews: "(5,321)",
     price: 455,
     key: 3,
+    bestSeller: true,
   },
   {
     image: gridCardimage,
@@ -37,6 +40,7 @@ const gridCardData = [
     reviews: "(5,321)",
     price: 455,
     key: 4,
+    bestSeller: true,
   },
   {
     image: gridCardimage,
@@ -45,6 +49,7 @@ const gridCardData = [
     reviews: "(5,321)",
     price: 455,
     key: 5,
+    bestSeller: true,
   },
   {
     image: gridCardimage,
@@ -53,6 +58,7 @@ const gridCardData = [
     reviews: "(5,321)",
     price: 455,
     key: 6,
+    bestSeller: true,
   },
   {
     image: gridCardimage,
@@ -61,6 +67,7 @@ const gridCardData = [
     reviews: "(5,321)",
     price: 455,
     key: 7,
+    bestSeller: true,
   },
   {
     image: gridCardimage,
@@ -69,6 +76,7 @@ const gridCardData = [
     reviews: "(5,321)",
     price: 455,
     key: 8,
+    bestSeller: true,
   },
   {
     image: gridCardimage,
@@ -77,6 +85,7 @@ const gridCardData = [
     reviews: "(5,321)",
     price: 455,
     key: 9,
+    bestSeller: true,
   },
   {
     image: gridCardimage,
@@ -85,6 +94,7 @@ const gridCardData = [
     reviews: "(5,321)",
     price: 455,
     key: 10,
+    bestSeller: true,
   },
 ];
 

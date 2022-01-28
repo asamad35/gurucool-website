@@ -7,7 +7,7 @@ import popular7 from "../../assests/images/image7.png";
 
 const cardData = [
   {
-    image: popular2,
+    image: popular3,
     heading: "Happiness Explained",
     description:
       "We all want to be happy, and there are countless ideas about what happiness is and how we can...",
@@ -17,7 +17,7 @@ const cardData = [
     popular: true,
   },
   {
-    image: popular3,
+    image: popular4,
     heading: "How To Get Over A Breakup?",
     description:
       "This online program helps you to figure out exactly what went wrong in your past relationship...",
@@ -27,7 +27,7 @@ const cardData = [
     popular: true,
   },
   {
-    image: popular4,
+    image: popular5,
     heading: "New enterprises",
     description:
       "This course covers the process of identifying and quantifying market opportunities, then conceptualizin.",
@@ -37,7 +37,7 @@ const cardData = [
     popular: true,
   },
   {
-    image: popular5,
+    image: popular2,
     heading: "How to think bigger",
     description:
       "Allocate time to thinking. If you allow yourself to just do what's next on your to-do list, you'll never find the time to think",

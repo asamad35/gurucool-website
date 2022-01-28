@@ -31,12 +31,12 @@ const Card = ({
           {ratingsArray.map(() => (
             <FontAwesomeIcon
               size="2x"
-              style={{ color: "#EDB300" }}
+              style={{ color: "#EDB300", width: "1.5rem" }}
               icon={faStar}
             />
           ))}
 
-          <span className="card-paragraph">{reviews}</span>
+          <span className="card-paragraph card-review">{reviews}</span>
         </div>
 
         {popular ? <PopularCardHelper /> : ""}
