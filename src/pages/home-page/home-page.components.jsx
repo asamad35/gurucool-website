@@ -12,6 +12,8 @@ import AppSection from "../../components/app-section/app-section.component";
 import TeachHere from "../../components/teachHere/teachHere.component";
 import Footer from "../../components/footer/footer.component";
 import GridProgrammingSection from "../../components/grid-programming-section/grid-programming-section.component";
+import Testimonials from "../../components/testimonials/testimonials.components";
+import FreeCoursesSection from "../../components/free-courses-section/free-courses-section.component";
 
 const HomePage = () => {
   return (
@@ -24,6 +26,8 @@ const HomePage = () => {
       <GridProgrammingSection />
       <AchieveGoals />
       <OurVision />
+      <FreeCoursesSection />
+      <Testimonials />
       <AppSection />
       <TeachHere />
       <Footer />

@@ -1,0 +1,11 @@
+@import "../../default-styles.scss";
+
+.testimonials-section {
+  padding: 6rem 7rem;
+  .testimonials-heading {
+    text-align: center;
+    padding-bottom: 6rem;
+  }
+
+  background-color: $primary-background-color;
+}

@@ -1,0 +1,22 @@
+@import "../../../default-styles.scss";
+
+.testimonial-card {
+  flex-direction: column;
+  padding: 0 6rem;
+
+  .testimonial-image {
+    padding-bottom: 2rem;
+  }
+  .testimonial-para {
+    font-size: 1.6rem;
+    color: $secondary-heading-color;
+    line-height: 3.2rem;
+    text-align: center;
+    padding-bottom: 2rem;
+  }
+  .testimonial-name {
+    font-size: 1.6rem;
+    font-weight: 600;
+    color: $secondary-background-color;
+  }
+}

@@ -1,6 +1,5 @@
 import React from "react";
 
-import gridCardData from "../grid-programming-section/grid-card/grid-programming-cards-data";
 import GridCard from "../grid-programming-section/grid-card/grid-card.components";
 
 // Import Swiper React components
@@ -20,7 +19,7 @@ import SwiperCore, { Grid, Pagination, Navigation } from "swiper";
 // install Swiper modules
 SwiperCore.use([Grid, Pagination, Navigation]);
 
-export default function GridCarousel() {
+export default function GridCarousel({ gridCardData }) {
   return (
     <div className="grid-swiper">
       <Swiper

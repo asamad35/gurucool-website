@@ -14,7 +14,6 @@ const cardData = [
     ratings: 5,
     reviews: "(5,321)",
     key: 2,
-    popular: true,
   },
   {
     image: popular3,
@@ -24,7 +23,6 @@ const cardData = [
     ratings: 5,
     reviews: "(5,321)",
     key: 3,
-    popular: true,
   },
   {
     image: popular4,
@@ -34,7 +32,6 @@ const cardData = [
     ratings: 5,
     reviews: "(5,321)",
     key: 4,
-    popular: true,
   },
   {
     image: popular5,
@@ -44,7 +41,6 @@ const cardData = [
     ratings: 5,
     reviews: "(5,321)",
     key: 5,
-    popular: true,
   },
   {
     image: popular6,
@@ -54,7 +50,6 @@ const cardData = [
     ratings: 5,
     reviews: "(5,321)",
     key: 6,
-    popular: true,
   },
   {
     image: popular7,
@@ -64,7 +59,6 @@ const cardData = [
     ratings: 5,
     reviews: "(5,321)",
     key: 7,
-    popular: true,
   },
   {
     image: popular7,
@@ -74,7 +68,6 @@ const cardData = [
     ratings: 5,
     reviews: "(5,321)",
     key: 8,
-    popular: true,
   },
 ];
 

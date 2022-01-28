@@ -9,6 +9,7 @@
     display: grid;
     gap: 2rem;
     position: relative;
+    // overflow: initial;
   }
 
   .swiper-button-next,
@@ -19,8 +20,8 @@
     align-items: center;
     background-color: $primary-heading-color;
     border-radius: 100rem;
-    height: 6rem;
-    width: 6rem;
+    height: 5rem;
+    width: 5rem;
     position: absolute;
     top: 36.8%;
     cursor: pointer;
@@ -29,7 +30,7 @@
 
     &::after {
       font-family: swiper-icons;
-      font-size: 2rem;
+      font-size: 1.6rem;
       text-transform: none !important;
       letter-spacing: 0;
       text-transform: none;
@@ -40,7 +41,10 @@
     }
   }
   .swiper-button-next {
-    right: 1rem;
+    right: 0rem;
+  }
+  .swiper-button-prev {
+    left: 0rem;
   }
   .swiper-pagination {
     padding-bottom: 3rem;
@@ -50,7 +54,7 @@
     }
   }
   .swiper-wrapper {
-    height: 35rem;
+    height: 33rem;
   }
 
   .swiper-slide {

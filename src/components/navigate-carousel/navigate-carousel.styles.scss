@@ -1,0 +1,54 @@
+@import "../../default-styles.scss";
+
+.navigate-carousel {
+  background-color: $primary-background-color;
+
+  .swiper {
+    overflow: revert;
+    .swiper-wrapper {
+      height: 60rem;
+    }
+
+    .swiper-button-next,
+    .swiper-button-prev,
+    .swiper-button-disabled {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      background-color: $primary-heading-color;
+      border-radius: 100rem;
+      height: 5rem;
+      width: 5rem;
+      position: absolute;
+      top: 38.8%;
+      cursor: pointer;
+      opacity: 1;
+      pointer-events: all;
+
+      &::after {
+        font-family: swiper-icons;
+        font-size: 1.6rem;
+        text-transform: none !important;
+        letter-spacing: 0;
+        text-transform: none;
+        font-weight: 900;
+        font-variant: jis78;
+        line-height: 1;
+        color: #f9c733;
+      }
+    }
+    .swiper-button-next {
+      right: -3rem;
+    }
+    .swiper-button-prev {
+      left: -3rem;
+    }
+    .swiper-pagination {
+      padding-bottom: 3rem;
+
+      .swiper-pagination-bullet {
+        background-color: $secondary-background-color;
+      }
+    }
+  }
+}
