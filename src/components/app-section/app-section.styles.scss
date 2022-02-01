@@ -42,7 +42,7 @@
     flex-direction: column-reverse;
     padding: 10rem 2rem;
     margin: 0;
-    margin-top: 50rem;
+    margin-top: 52rem;
     background-color: white;
     align-items: center;
     position: relative;
@@ -66,6 +66,8 @@
 
       .download-button {
         gap: 2rem;
+        flex-wrap: wrap;
+        padding-bottom: 2rem;
         img {
           width: 13rem;
         }
@@ -73,8 +75,8 @@
     }
     .mobile-picture {
       position: absolute;
-      bottom: 40rem;
-      right: 4rem;
+      bottom: 42rem;
+      right: 3rem;
       img {
         position: relative;
         bottom: 0rem;
@@ -99,8 +101,8 @@
       }
     }
     .mobile-picture {
-      bottom: 44rem;
-      right: 0rem;
+      bottom: 46rem;
+      right: -4rem;
       img {
         width: 80%;
       }
