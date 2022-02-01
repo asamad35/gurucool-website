@@ -67,8 +67,10 @@
   @media (max-width: 500px) {
     // heroSection
     flex-direction: column;
+    justify-content: flex-start;
     padding: 0 2rem;
     max-height: none;
+    height: calc(100vh - 10rem);
     z-index: 1;
 
     .wave1,
@@ -90,6 +92,7 @@
       .input {
         width: 90%;
         flex-direction: column;
+        gap: 2.5rem;
 
         input {
           width: 100%;
