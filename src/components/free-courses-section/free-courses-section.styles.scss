@@ -4,3 +4,18 @@
   // background-color: #f8f8f8;
   padding-top: 9rem;
 }
+
+@media (max-width: 450px) {
+  .free-courses-section {
+    .swiper-slide {
+      height: 40rem;
+    }
+  }
+}
+@media (max-width: 390px) {
+  .free-courses-section {
+    .swiper-slide {
+      height: 39rem;
+    }
+  }
+}

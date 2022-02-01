@@ -33,6 +33,10 @@ export default function GridCarousel({ gridCardData }) {
         }}
         navigation={true}
         breakpoints={{
+          180: {
+            slidesPerView: 1,
+            spaceBetween: 15,
+          },
           640: {
             slidesPerView: 1,
             spaceBetween: 20,

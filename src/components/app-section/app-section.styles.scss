@@ -35,3 +35,75 @@
     }
   }
 }
+
+@media (max-width: 500px) {
+  .app {
+    display: flex;
+    flex-direction: column-reverse;
+    padding: 10rem 2rem;
+    margin: 0;
+    margin-top: 50rem;
+    background-color: white;
+    align-items: center;
+    position: relative;
+
+    .app-box {
+      flex-direction: column;
+      align-items: flex-start;
+      gap: 3rem;
+      background-color: #f9c733;
+      padding: 2rem 1rem;
+      padding-top: 40rem;
+      border-radius: 20px;
+      align-items: center;
+      width: 95%;
+
+      .app-heading {
+        font-size: 3.6rem;
+        font-weight: 600;
+        text-align: center;
+      }
+
+      .download-button {
+        gap: 2rem;
+        img {
+          width: 13rem;
+        }
+      }
+    }
+    .mobile-picture {
+      position: absolute;
+      bottom: 40rem;
+      right: 4rem;
+      img {
+        position: relative;
+        bottom: 0rem;
+        right: 0rem;
+        left: 0rem;
+        top: 0;
+        width: 100%;
+      }
+    }
+  }
+}
+
+@media (max-width: 393px) {
+  .app {
+    .app-box {
+      padding-top: 33rem;
+    }
+    .download-button {
+      gap: 2rem;
+      img {
+        width: 13rem;
+      }
+    }
+    .mobile-picture {
+      bottom: 44rem;
+      right: 0rem;
+      img {
+        width: 80%;
+      }
+    }
+  }
+}

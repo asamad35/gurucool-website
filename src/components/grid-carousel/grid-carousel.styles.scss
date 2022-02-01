@@ -154,3 +154,14 @@
     height: calc((100% - 30px) / 2) !important;
   }
 }
+
+@media (max-width: 500px) {
+  .grid-swiper {
+    .swiper {
+      .swiper-button-next,
+      .swiper-button-prev {
+        display: none;
+      }
+    }
+  }
+}

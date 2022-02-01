@@ -41,3 +41,33 @@
 .reduceSwiperHeight {
   height: 47rem !important;
 }
+
+@media (max-width: 500px) {
+  .free-swiper {
+    .swiper {
+      .swiper-slide {
+        width: 80% !important;
+      }
+    }
+  }
+}
+@media (max-width: 400px) {
+  .free-swiper {
+    .swiper {
+      height: 49rem;
+      .swiper-slide {
+        width: 85% !important;
+      }
+    }
+  }
+}
+@media (max-width: 340px) {
+  .free-swiper {
+    .swiper {
+      height: 48rem;
+      .swiper-slide {
+        width: 100% !important;
+      }
+    }
+  }
+}

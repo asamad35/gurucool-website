@@ -40,3 +40,46 @@
     font-weight: 600;
   }
 }
+
+@media (max-width: 500px) {
+  .grid-card {
+    gap: 1rem;
+    .text-box {
+      padding-right: 0;
+
+      .heading-text {
+        color: $primary-heading-color;
+        text-align: left;
+        padding-bottom: 1rem;
+        font-size: 1.6rem;
+      }
+
+      .price {
+        font-size: 2rem;
+      }
+    }
+  }
+}
+
+@media (max-width: 400px) {
+  .grid-card {
+    gap: 1rem;
+    .text-box {
+      padding-right: 0;
+      .heading-text {
+        color: $primary-heading-color;
+        text-align: left;
+        padding-bottom: 1rem;
+        font-size: 1.4rem;
+        padding-bottom: 0.5rem;
+      }
+      .ratings {
+        padding-bottom: 0.5rem;
+        gap: 0.6rem;
+      }
+      .price {
+        font-size: 1.8rem;
+      }
+    }
+  }
+}

@@ -20,7 +20,7 @@ const FreeCarousel = ({ cardData, extraSwiperHeight, reduceSwiperHeight }) => {
     <div className="free-swiper">
       <Swiper
         slidesPerView={1}
-        spaceBetween={30}
+        spaceBetween={15}
         freeMode={true}
         pagination={{
           clickable: true,
