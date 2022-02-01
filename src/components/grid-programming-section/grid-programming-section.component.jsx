@@ -8,8 +8,8 @@ const GridProgrammingSection = () => {
   return (
     <div className="section grid-programming-section">
       <div className="text-box">
-        <h2 className="secondary-heading ">Programming</h2>
-        <p className="secondary-paragraph">
+        <h2 className="secondary-heading mob-section-heading ">Programming</h2>
+        <p className="secondary-paragraph  mob-section-paragraph">
           Learn something completely new or improve your existing skills
         </p>
       </div>

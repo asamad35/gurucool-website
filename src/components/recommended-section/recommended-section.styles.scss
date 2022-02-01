@@ -19,3 +19,12 @@
     }
   }
 }
+
+@media (max-width: 500px) {
+  .text-box {
+    padding: 0 2rem;
+    span {
+      display: none;
+    }
+  }
+}

@@ -10,7 +10,7 @@
 
   .achieve-goals-heading {
     font-size: 6.4rem;
-    font-weight: 600;
+    font-weight: $secondary-heading-weight;
     text-align: start;
     span {
       color: $secondary-background-color;
@@ -29,6 +29,46 @@
       .achieve-goals-picture-text {
         font-size: 1.8rem;
         font-weight: 600;
+        text-align: center;
+      }
+    }
+  }
+}
+
+@media (max-width: 500px) {
+  .achieve-goals {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 5rem 2rem;
+
+    .achieve-goals-heading {
+      font-size: $secondary-heading;
+      font-weight: $secondary-heading-weight;
+      text-align: center;
+      padding-bottom: 5rem;
+      span {
+        color: $secondary-background-color;
+      }
+    }
+
+    .achieve-goals-box {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      grid-column-gap: 5rem;
+      grid-row-gap: 5rem;
+
+      .achieve-goals-picture-box {
+        flex-direction: column;
+        gap: 2rem;
+        img {
+          width: 80%;
+        }
+        .achieve-goals-picture-text {
+          font-size: 1.8rem;
+          font-weight: 600;
+        }
       }
     }
   }

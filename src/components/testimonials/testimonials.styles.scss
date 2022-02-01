@@ -9,3 +9,10 @@
 
   background-color: $primary-background-color;
 }
+
+@media (max-width: 500px) {
+  .testimonials-section {
+    padding: 6rem 0;
+    padding-bottom: 0rem;
+  }
+}

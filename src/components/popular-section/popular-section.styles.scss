@@ -8,16 +8,7 @@
 @media (max-width: 500px) {
   .popular-section {
     .text-box {
-      .popular-section-heading {
-        font-size: $tertiary-heading;
-        font-weight: $secondary-heading-weight;
-        text-align: center;
-      }
-    }
-    .popular-section-paragraph {
-      font-size: 1.2rem;
-      font-weight: $tertiary-paragraph-weight;
-      text-align: center;
+      padding: 0 2rem;
     }
   }
 }

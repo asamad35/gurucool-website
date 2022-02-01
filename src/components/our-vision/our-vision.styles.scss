@@ -26,3 +26,31 @@
     }
   }
 }
+
+@media (max-width: 500px) {
+  .our-vision {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 9rem 4rem;
+
+    .our-vision-heading {
+      text-align: center;
+      padding-bottom: 4rem;
+    }
+
+    .our-vision-textbox {
+      padding-left: 3rem;
+      .our-vision-para {
+        text-align: left;
+        font-size: 1.6rem;
+        font-weight: 400;
+        line-height: 3.8rem;
+      }
+      span {
+        font-size: 1.4rem;
+      }
+    }
+  }
+}

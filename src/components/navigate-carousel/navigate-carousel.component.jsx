@@ -20,13 +20,29 @@ export default function NavigateCarousel({ testimonialCardData }) {
   return (
     <div className="navigate-carousel">
       <Swiper
-        slidesPerView={3}
+        slidesPerView={1}
         spaceBetween={30}
-        slidesPerGroup={3}
-        loop={true}
-        loopFillGroupWithBlank={true}
+        // slidesPerGroup={3}
         pagination={{
           clickable: true,
+        }}
+        breakpoints={{
+          640: {
+            slidesPerView: 2,
+            spaceBetween: 20,
+          },
+          768: {
+            slidesPerView: 3,
+            spaceBetween: 20,
+          },
+          1200: {
+            slidesPerView: 3,
+            spaceBetween: 20,
+          },
+          1496: {
+            slidesPerView: 3,
+            spaceBetween: 20,
+          },
         }}
         navigation={true}
         className="mySwiper"

@@ -7,8 +7,8 @@ const FreeCoursesSection = () => {
   return (
     <div className="section free-courses-section">
       <div className="text-box">
-        <h2 className="secondary-heading ">Free courses</h2>
-        <p className="secondary-paragraph">
+        <h2 className="secondary-heading mob-section-heading ">Free courses</h2>
+        <p className="secondary-paragraph mob-section-paragraph">
           Learn something completely new or improve your existing skills
         </p>
       </div>

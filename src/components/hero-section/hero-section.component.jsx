@@ -22,7 +22,7 @@ const HeroSection = () => {
         <a className="navigate hero-navigate">Explore all courses</a>
       </div>
 
-      <div className="hero-image-box">
+      <div className="hero-image-box flex">
         <img src={heroGirl} alt="" />
       </div>
 

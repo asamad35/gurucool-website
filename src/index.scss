@@ -81,7 +81,17 @@ html {
 
 @media (max-width: 500px) {
   .section {
-    padding: 9rem 3.5rem;
+    padding: 9rem 2rem;
     padding-top: 0;
+    .mob-section-heading {
+      font-size: $tertiary-heading;
+      font-weight: $secondary-heading-weight;
+      text-align: center;
+    }
+  }
+  .mob-section-paragraph {
+    font-size: 1.2rem;
+    font-weight: $tertiary-paragraph-weight;
+    text-align: center;
   }
 }

@@ -43,12 +43,83 @@
     .swiper-button-prev {
       left: -3rem;
     }
+    .swiper-button-disabled {
+      opacity: 0.8;
+    }
     .swiper-pagination {
-      padding-bottom: 3rem;
+      padding-bottom: 1rem;
 
       .swiper-pagination-bullet {
         background-color: $secondary-background-color;
       }
+    }
+  }
+}
+
+@media (max-width: 500px) {
+  .navigate-carousel {
+    .swiper {
+      .swiper-wrapper {
+        height: 55rem;
+      }
+      .swiper-button-next,
+      .swiper-button-prev {
+        top: 28%;
+      }
+    }
+    .swiper-button-next {
+      right: 1rem !important;
+    }
+    .swiper-button-prev {
+      left: 1rem !important;
+    }
+    .swiper-pagination {
+      // padding-top:  !important;
+    }
+  }
+}
+
+@media (max-width: 401px) {
+  .navigate-carousel {
+    .swiper {
+      .swiper-wrapper {
+        height: 57rem;
+      }
+    }
+  }
+}
+
+@media (max-width: 357px) {
+  .navigate-carousel {
+    .swiper {
+      .swiper-wrapper {
+        height: 60rem;
+      }
+    }
+  }
+}
+@media (max-width: 337px) {
+  .navigate-carousel {
+    height: 64rem;
+    .swiper {
+      height: 64rem;
+    }
+  }
+}
+
+@media (max-width: 317px) {
+  .navigate-carousel {
+    height: 66rem;
+    .swiper {
+      height: 66rem;
+    }
+  }
+}
+@media (max-width: 304px) {
+  .navigate-carousel {
+    height: 72rem;
+    .swiper {
+      height: 72rem;
     }
   }
 }

@@ -6,10 +6,12 @@ import "./recommended-section.styles.scss";
 const RecommendedSection = () => {
   return (
     <div className="section recommended-section">
-      <div className="text-box flex">
-        <div className="heading-text flex">
-          <h2 className="secondary-heading ">Recommended for you</h2>
-          <p className="secondary-paragraph">
+      <div className="text-box">
+        <div className="heading-text ">
+          <h2 className="secondary-heading mob-section-heading">
+            Recommended for you
+          </h2>
+          <p className="secondary-paragraph  mob-section-paragraph">
             Learn new recommended languages to enhance your skills
           </p>
         </div>

@@ -7,10 +7,10 @@ const ProgrammingSection = () => {
   return (
     <div className="section programming-section">
       <div className="text-box">
-        <h2 className="secondary-heading ">
+        <h2 className="secondary-heading mob-section-heading  ">
           Because you like <span> programming </span>
         </h2>
-        <p className="secondary-paragraph">
+        <p className="secondary-paragraph mob-section-paragraph ">
           Learn new programming languages to enhance your skills
         </p>
       </div>

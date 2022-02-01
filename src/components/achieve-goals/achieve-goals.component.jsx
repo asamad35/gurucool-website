@@ -16,9 +16,7 @@ const AchieveGoals = () => {
       <div className="achieve-goals-box">
         <div className="achieve-goals-picture-box flex">
           <img src={achieveGoal1} alt="" />
-          <h2 className="achieve-goals-picture-text">
-            Learn the Latest skills
-          </h2>
+          <h2 className="achieve-goals-picture-text">Learn the Latest</h2>
         </div>
         <div className="achieve-goals-picture-box flex">
           <img src={achieveGoal2} alt="" />
