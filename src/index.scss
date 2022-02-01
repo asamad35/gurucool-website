@@ -71,3 +71,17 @@ html {
   font-size: $secondary-paragraph;
   font-weight: $secondary-paragraph-weight;
 }
+
+.hidden {
+  opacity: 0;
+  pointer-events: none;
+}
+
+// mobileSupport
+
+@media (max-width: 500px) {
+  .section {
+    padding: 9rem 3.5rem;
+    padding-top: 0;
+  }
+}

@@ -7,8 +7,10 @@ const PopularSection = () => {
   return (
     <div className="section popular-section">
       <div className="text-box">
-        <h2 className="secondary-heading ">What’s popular</h2>
-        <p className="secondary-paragraph">
+        <h2 className="secondary-heading popular-section-heading">
+          What’s popular
+        </h2>
+        <p className="secondary-paragraph popular-section-paragraph">
           Learn something completely new or improve your existing skills
         </p>
       </div>

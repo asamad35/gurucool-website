@@ -7,9 +7,13 @@
   padding-bottom: 0;
   z-index: 10;
   max-height: 6.4rem;
+  position: relative;
 
-  .logo {
+  .desktop-logo {
     cursor: pointer;
+  }
+  .mobile-logo {
+    display: none;
   }
 
   .nav-links {
@@ -18,6 +22,7 @@
     gap: 10rem;
     font-size: 1.6rem;
     font-weight: 500;
+    transition: 0.3s ease all;
 
     .nav-link {
       cursor: pointer;
@@ -26,5 +31,66 @@
 
   .login {
     background-color: transparent;
+  }
+
+  .toggle-nav {
+    display: none;
+  }
+
+  // mobile
+
+  @media (max-width: 500px) {
+    padding-top: 4rem;
+    padding-left: 2rem;
+    padding-bottom: 6rem;
+
+    .logo {
+      z-index: 101;
+      .mobile-logo {
+        display: block;
+      }
+      .desktop-logo {
+        display: none;
+      }
+    }
+    .toggle-nav {
+      z-index: 100;
+      display: flex;
+      position: relative;
+      top: 1.5rem;
+      right: -3rem;
+
+      img {
+        width: 100%;
+      }
+    }
+    .nav-links {
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100vw;
+      height: 100vh;
+      z-index: 100;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      .nav-link {
+        font-size: $secondary-heading;
+        font-weight: $secondary-paragraph-weight;
+      }
+    }
+    .nav-links.open {
+      background-color: #fff;
+      opacity: 1;
+      pointer-events: all;
+    }
+    .nav-links.close {
+      opacity: 0;
+      pointer-events: none;
+    }
+
+    .login {
+      display: none;
+    }
   }
 }

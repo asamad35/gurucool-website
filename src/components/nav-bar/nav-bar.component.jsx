@@ -1,29 +1,36 @@
-import React from "react";
+import React, { useState } from "react";
 
-import logo from '../../assests/images/logo.png'
-import './nav-bar.styles.scss'
+import desktopLogo from "../../assests/images/logo.png";
+import mobileLogo from "../../assests/images/mobile-logo.png";
+import navOpen from "../../assests/images/nav-open.png";
+import navClose from "../../assests/images/nav-close.png";
+import "./nav-bar.styles.scss";
 
-const Navbar = ()=>{
-    return(
-        <div className="nav-bar flex">
+const Navbar = () => {
+  const [isNavOpen, setIsNavOpen] = useState(false);
 
-            <div className="logo">
-                <img src={logo} alt="" />
-            </div>
+  return (
+    <div className="nav-bar flex">
+      <div className="logo">
+        <img className="desktop-logo" src={desktopLogo} alt="" />
+        <img className="mobile-logo" src={mobileLogo} alt="" />
+      </div>
 
-        <ul className="nav-links flex">
-            <li className="nav-link">Home</li>
-            <li className="nav-link">Courses</li>
-            <li className="nav-link">About</li>
-        </ul>
+      <ul className={`nav-links ${isNavOpen ? "open" : "close"} flex`}>
+        <li className="nav-link">Home</li>
+        <li className="nav-link">Courses</li>
+        <li className="nav-link">About</li>
+      </ul>
 
-        <div className="login flex">
-            <button className='button login'>Login</button>
-            <button className="button">Sign Up</button>
-        </div>
+      <div className="login flex">
+        <button className="button login">Login</button>
+        <button className="button">Sign Up</button>
+      </div>
 
-
-        </div>
-    )
-}
-export default Navbar
+      <div onClick={() => setIsNavOpen(!isNavOpen)} className="toggle-nav">
+        <img src={isNavOpen ? navClose : navOpen} alt="" srcset="" />
+      </div>
+    </div>
+  );
+};
+export default Navbar;

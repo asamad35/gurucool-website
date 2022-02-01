@@ -61,4 +61,43 @@
     width: 100%;
     bottom: 8%;
   }
+
+  // Mobile Support
+
+  @media (max-width: 500px) {
+    // heroSection
+    flex-direction: column;
+    padding: 0 2rem;
+    max-height: none;
+    z-index: 1;
+
+    .wave1,
+    .wave2 {
+      display: none;
+    }
+
+    .hero-text-box {
+      width: 100%;
+      justify-content: center;
+      align-items: center;
+
+      .hero-heading {
+        font-size: $secondary-heading;
+        font-weight: $secondary-heading-weight;
+        text-align: center;
+      }
+
+      .input {
+        width: 90%;
+        flex-direction: column;
+
+        input {
+          width: 100%;
+        }
+      }
+      .hero-navigate {
+        display: none;
+      }
+    }
+  }
 }
