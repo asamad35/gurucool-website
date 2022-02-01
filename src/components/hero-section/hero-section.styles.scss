@@ -70,7 +70,7 @@
     justify-content: flex-start;
     padding: 0 2rem;
     max-height: none;
-    // height: calc(100vh - 10rem);
+    height: 90vh;
     z-index: 1;
 
     .wave1,
@@ -100,6 +100,13 @@
       }
       .hero-navigate {
         display: none;
+      }
+    }
+
+    .hero-image-box {
+      img {
+        height: 100%;
+        width: 100%;
       }
     }
   }
