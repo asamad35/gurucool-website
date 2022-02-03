@@ -27,6 +27,7 @@
       align-items: center;
       justify-content: flex-start;
       padding: 1rem;
+      height: fit-content;
 
       background-color: white;
       border: 1px solid #dedede;
@@ -46,7 +47,7 @@
   .free-swiper {
     .swiper {
       .swiper-slide {
-        width: 80% !important;
+        // width: 80% !important;
       }
     }
   }
@@ -56,7 +57,7 @@
     .swiper {
       height: 49rem;
       .swiper-slide {
-        width: 85% !important;
+        // width: 85% !important;
       }
     }
   }
@@ -66,7 +67,7 @@
     .swiper {
       height: 48rem;
       .swiper-slide {
-        width: 100% !important;
+        // width: 100% !important;
       }
     }
   }
